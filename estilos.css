@@ -1,0 +1,60 @@
+li#linav{
+    display:inline-block;
+    background-color:#333;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    border:2px solid black
+}
+a{
+    color:white;
+    text-decoration:none;
+    padding: 150px;
+}
+ul#linav{
+    list-style-type:none;
+    overflow:hidden;
+}
+nav{
+    position:sticky;
+    top:0;
+    text-align:center;
+}
+ul#lical{
+    width:1050px;
+}
+li#lical{
+    list-style-type:none;
+    height:235px;
+}
+div.fuera{
+    display:flex;
+    background-color:rgb(219, 28, 28);
+    align-items:stretch;
+}
+div.fuera>div{
+    background-color:white;
+    color: black;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+}
+#tab1{
+    border-collapse: collapse;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tab2{
+    border-collapse: collapse;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td{
+    border:1px solid rgb(170, 166, 166);
+    padding: 3px;
+    text-align: center;
+}
